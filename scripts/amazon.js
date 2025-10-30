@@ -75,6 +75,12 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
             });        
         }
 
-        console.log(cart);        
+        // LOOPING THROUGH CART ARRAY TO UPDATE TOTAL QUANTITY IN CART ON WEBPAGE
+        let cartQuantity = 0;
+        cart.forEach((item) => {
+            cartQuantity += item.quantity;
+        });        
+        document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+       
     });
 });
