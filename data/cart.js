@@ -1,1 +1,1 @@
-const cart = [];
+export const cart = []; // export ALLOWS cart TO BE USED OUTSIDE OF cart.js
