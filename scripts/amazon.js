@@ -1,4 +1,4 @@
-import {products} from '../products.js';
+import {products} from '../data/products.js';
 import {cart} from '../data/cart.js';  // IMPORTS A VARIABLE FROM SOMEWHERE ELSE, IMPORTS MUST BE PLACED AT TOP OF PAGE THAT NEEDS THEM
 
 
