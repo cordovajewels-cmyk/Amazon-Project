@@ -1,4 +1,5 @@
 import {cart} from '../data/cart.js';  // IMPORTS A VARIABLE FROM SOMEWHERE ELSE, IMPORTS MUST BE PLACED AT TOP OF PAGE THAT NEEDS THEM
+import {products} from '../products.js';
 
 let productsHTML = '';
 
